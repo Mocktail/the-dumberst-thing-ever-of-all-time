@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+
+    <h1> DUMB GAME </h1>
+
+    <div class="flex-container">
+        <div class="inner-wrapper">
+			 <h2 id="nameContainer"> Roy </h2>
+			 <img src="https://img.fireden.net/tg/image/1446/32/1446321872541.png"/>
+			 <h3 id= "player-health-text"> 100 </h3>
+			<progress value="100" max="100" id="player-bar"> </progress>
+			 <button onclick="normal()">Normal Attack</button>
+			 <button onclick="special()"> Special Attack </button>
+          <button onclick="reset()"> Reset </button>
+          <button onclick="nameChange()"> Change Name </button>
+        </div>
+
+        <div class="inner-wrapper enemy-wrapper">
+			 <h2 id="enemy-name"> DREAD OGRE </h2>
+			<img src ="https://vignette.wikia.nocookie.net/mspaintadventures/images/7/7e/Ogre_01.gif/revision/latest/scale-to-width-down/300?cb=20140113021137" id= "enemy-pic"/>
+			<h3 id="enemy-health-text"> 100 </h3>
+			 <progress value="100" max="100" id="enemy-bar"> </progress>
+        </div>
+  	</div>
+</body>
+       
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
